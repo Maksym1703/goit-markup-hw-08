@@ -1,0 +1,16 @@
+.light-theme {
+  color: var(--hero-color);
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+
+  & .logo-text {
+    margin-right: 93px;
+  }
+
+  & .logo {
+    display: flex;
+    align-items: center;
+  }
+}
