@@ -48,8 +48,8 @@
 
   & .filter {
     display: flex;
-    justify-content: center;
-    padding-bottom: 34px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
   }
 }
 
@@ -59,14 +59,17 @@
   }
 }
 
+.filter-list {
+  margin-bottom: 15px;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+  align-items: center;
 }
 
 .projects-list {
-  margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
 
@@ -78,7 +81,7 @@
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-    display: block;
+    /*display: block;*/
     cursor: pointer;
   }
 }
@@ -102,7 +105,7 @@
   &:focus {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-    display: block;
+    /*display: block;*/
   }
 }
 

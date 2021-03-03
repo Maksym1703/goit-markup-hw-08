@@ -6,17 +6,17 @@
 
   & .link {
     display: flex;
-  }
-
-  & .logo-text {
-    margin-bottom: 20px;
-    width: 145px;
-    height: 31px;
+    justify-content: center;
   }
 
   & .social-list-link {
     background-color: rgba(255, 255, 255, 0.1);
   }
+}
+
+.logo-text {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .footer-address {
@@ -26,14 +26,16 @@
   font-style: normal;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  padding-bottom: 8px;
 }
 
 .footer-mail {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.174;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 8px;
 }
 
 .footer-tel {
@@ -42,14 +44,6 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-address {
-  margin-bottom: 9px;
-}
-
-.footer-mail {
-  margin-bottom: 9px;
 }
 
 .social-text {
@@ -62,36 +56,45 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--hero-color);
+  padding-top: 60px;
 }
 
-.block1 {
-  width: 231px;
-  justify-content: space-between;
-  margin-right: 70px;
+.social-text {
+  text-align: center;
 }
 
-.footer-action {
-  margin-left: auto;
+.social-list-item {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-action-text {
-  font-weight: 700;
-  line-height: 1.143;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero-color);
 }
 
-.footer-form {
+.footer-action {
+  text-align: center;
+}
+
+.footer-action-text {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  padding-top: 60px;
+}
+.footer-form {
   margin-top: 20px;
 }
 
 .footer-form-input {
-  width: 358px;
+  width: 450px;
   height: 50px;
+  margin-bottom: 20px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -106,8 +109,7 @@
 }
 
 .footer-form-btn {
-  display: flex;
-  align-items: center;
+  align-items: baseline;
   width: 200px;
   height: 50px;
   background-color: var(--accent-color-blue);
@@ -128,4 +130,10 @@
 .footer-form-icon {
   fill: var(--hero-color);
   margin-left: 10px;
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
 }

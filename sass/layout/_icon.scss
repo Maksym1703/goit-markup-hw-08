@@ -60,19 +60,3 @@
     fill: var(--accent-color-blue);
   }
 }
-
-.client-list-link {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  width: 170px;
-  height: 90px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:hover,
-  &:focus {
-    border-color: var(--accent-color-blue);
-  }
-}
